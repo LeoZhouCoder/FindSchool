@@ -1,0 +1,69 @@
+body {
+    overflow: hidden;
+}
+
+p {
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.searchBar-container {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    padding: 1em 2em 0 2em;
+    width: 100%;
+}
+
+.schoolList-container {
+    width: 100%;
+    height: 100%;
+    padding: 0 2em 0 2em;
+}
+
+.schoolList-list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 0 2em 0;
+}
+
+.schoolList-result {
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px solid #d4d4d5;
+}
+
+.schoolCard {
+    width: 100%;
+    border-bottom: 1px solid #d4d4d5;
+    padding: 2em 1em 2em 1em;
+}
+
+.list-item-second {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.schoolCard-column {
+    padding: 0 0 1em 1em;
+}
+
+.text-secondary {
+    font-size: 90%;
+    color: #979799;
+}
+
+.text-main {
+    font-size: 90%;
+}
+
+.text-single {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
