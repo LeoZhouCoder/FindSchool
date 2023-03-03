@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="5.1.1" />
-    <PackageReference Include="MongoDB.Driver" Version="2.10.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.0" />
     <None Update="schools.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
